@@ -1,4 +1,128 @@
-body {
-    background-color: #ffc;
-    padding-left: 1em;
+/* Background colors */
+
+.green-back {
+    background-color: #588e7e;
+}
+
+.yellow-back {
+    background-color: #f2e394;
+}
+
+.orange-back {
+    background-color: #f2ae72;
+}
+
+.red-back {
+    background-color: #d96459;
+}
+
+.brick-back {
+    background-color: #8c4646;
+}
+
+.white {
+    color: white;
+}
+
+/* Body */
+
+header, footer {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    clear: both;
+    padding: 8px 0;
+}
+
+header h1 {
+    margin: 8px 0 20px 0;
+}
+
+article h2, h3 {
+    clear: both;
+}
+
+article p {
+    font-size: 1.2em;
+}
+
+nav, .content {
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 1200px;
+    min-width: 600px;
+}
+
+aside {
+    float: left;
+    width: 200px;
+    overflow: hidden;
+}
+
+section {
+    float: left;
+    overflow: hidden;
+    width: calc(100% - 200px);
+}
+
+section p {
+    text-align: justify;
+}
+
+.image-container {
+    width: 400px;
+    overflow: hidden;
+}
+
+.image-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.image-container a:hover {
+    text-decoration: underline;
+}
+
+.image-container-left {
+    float: left;
+    margin: 0 1em 0.25em 0;
+
+}
+
+.image-container .image {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.image-container .caption {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+/* BootStrap Adjustments *********************************************/
+
+.navbar-collapse.collapse {
+    display: block !important;
+}
+
+.navbar-nav {
+    margin: 0 !important;
+}
+
+.navbar-nav > li, .navbar-nav {
+    float: left !important;
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -15px !important;
+}
+
+.navbar-right {
+    float: right !important;
 }
